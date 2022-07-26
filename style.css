@@ -1,0 +1,215 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+
+
+
+
+
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+}
+/* PAGE SECTION */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+.c-site-header {
+  text-align: center;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 30px;
+}
+
+nav {
+  font-size: 18px;
+  text-align: center;
+
+}
+
+article {
+  margin-bottom: 60px;
+  text-align: center;
+
+
+}
+
+.post-header {
+  margin-bottom: 40px;
+  text-align: center;
+
+
+  /* position: relative; */
+}
+
+
+/* SMALLER ELEMENTS */
+h1,
+h2,
+h3 {
+  color: #1098ad;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+
+h3::first-letter {
+  font-style: normal;
+  font-size: 25px;
+  margin-right: 2px;
+
+}
+
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  /* display: inline; */
+}
+
+footer p {
+  /* font-size: 16px; */
+}
+
+article header p {
+  /* font-style: itali; */
+}
+
+#auther {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-auther {
+  font-size: 18;
+  font-weight: bold;
+}
+
+/* Misconception: thos won't work */
+
+
+/* Styling links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  /* color: #777 */
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* LVHA */
+
+.profile-pic {
+  width: 20%;
+  border-radius: 100px;
+}
+
+
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-top: 20px;
+  display: inline-block;
+
+
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+/*  Resolving conflict */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+footer p {
+  color: green !important;
+} */
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+
+iframe {
+  border: 0px;
+}
+
+.todo {
+  border: 2px solid #1098ad;
+  position: relative;
+}
