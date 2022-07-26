@@ -88,9 +88,3 @@ document.getElementById('button').addEventListener('click', (event) => {
   element_list.appendChild(new_li);
 
 });
-
-document.getElementById('remove').addEventListener('click', (event) => {
-  let element_list2 = document.getElementById('list');
-  element_list2.replaceChildren();
-
-});
