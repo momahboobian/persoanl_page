@@ -67,7 +67,7 @@ test("There are at least 500 words on the page", () => {
 const console = document.getElementById("tests");
 prettify.toHTML(run(), console);
 
-// to do list
+// to do list */
 function getNumberOrString(value) {
   // Convert a string value to a number if possible
   let number_value = Number(value);
@@ -77,7 +77,7 @@ function getNumberOrString(value) {
     return number_value
   }
 }
-*/
+
 
 
 document.getElementById('button').addEventListener('click', (event) => {
