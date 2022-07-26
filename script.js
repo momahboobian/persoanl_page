@@ -14,7 +14,7 @@ const {
   FIND ELEMENTS
   These are all the elements we will look for.
    ===================
-*/
+
 const getHeader = document.querySelectorAll("header"),
   getH1 = document.querySelectorAll("h1"),
   getSiteHeader = document.querySelectorAll(".c-site-header"),
@@ -25,14 +25,14 @@ const getHeader = document.querySelectorAll("header"),
   getIFrame = document.querySelectorAll("iframe"),
   getImage = document.querySelectorAll("img"),
   getWords = document.body.innerText;
-
+*/
 /* =================
    ASSERTIONS 
    These are the things we check are true about your page.
    Read and update your HTML to discover the requirements.
    The tests will run every time you update your code.
    ===================
-*/
+
 test("There is at least one header element", () => {
   expect(getHeader.length).toBeGreaterThanOrEqual(1);
 });
@@ -77,7 +77,7 @@ function getNumberOrString(value) {
     return number_value
   }
 }
-
+*/
 
 
 document.getElementById('button').addEventListener('click', (event) => {
